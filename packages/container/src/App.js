@@ -3,7 +3,6 @@ import { mount } from "marketing/MarketingApp";
 import MarketingApp from "./components/MarketingApp";
 
 console.log(mount);
-// Added comment
 
 const App = () => (
   <>
