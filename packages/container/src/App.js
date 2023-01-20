@@ -9,9 +9,6 @@ const generateClassName = createGenerateClassName({
   productionPrefix: "con",
 });
 
-console.log(mount);
-// Added comment
-
 const App = () => (
   <BrowserRouter>
     <StylesProvider generateClassName={generateClassName}>
